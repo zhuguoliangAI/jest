@@ -29,6 +29,7 @@ describe('add 相关代码', () => {
         counter.addOne();
         expect(counter.number).toBe(1);
     });
+    // 可以用 test.only只执行当前用例
     test('test Counter addTwo', () => {
         counter.addTwo();
         expect(counter.number).toBe(2);
